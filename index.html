@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Arcanar RolePlay</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Фоновое изображение -->
+  <div id="bgImage"></div>
+  <div class="overlay"></div>
+
+  <div class="container">
+    <h1>Arcanar RolePlay</h1>
+
+    <!-- Блок: Расы + картинка -->
+    <div class="race-block">
+      <div class="race-text">
+        <p>
+          <a href="#" id="toggleRaces">Расы персонажей</a>
+        </p>
+        <div id="racesContent" style="display: none;">
+          <h3>Доступные расы:</h3>
+          <ul>
+            <li>Человек — универсален, быстро учится.</li>
+            <li>Эльф — долгожитель, владеет магией.</li>
+            <li>Гном — силён в ремесле, устойчив к ядам.</li>
+          </ul>
+          <p>
+            <a
+              href="https://example.com/races"
+              target="_blank"
+              rel="noopener"
+              class="more-link"
+            >
+              Подробнее о расах →
+            </a>
+          </p>
+        </div>
+      </div>
+
+      <!-- Миниатюра -->
+      <div class="race-image">
+        <img
+          src="https://avatars.mds.yandex.net/i?id=5b878e6ead76e06a37f1dd8bfc60fd05_l-5544086-images-thumbs&n=13"
+          alt="Раса"
+        >
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
